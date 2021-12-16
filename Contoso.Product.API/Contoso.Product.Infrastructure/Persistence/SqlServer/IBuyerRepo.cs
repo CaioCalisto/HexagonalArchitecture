@@ -1,5 +1,5 @@
 ﻿using Contoso.Product.Domain.Aggregates.Buyers;
-using Contoso.Product.Infrastructure.Ports.Persistence;
+using Contoso.Product.Infrastructure.Persistence;
 
 namespace Contoso.Product.Infrastructure.Persistence.SqlServer
 {

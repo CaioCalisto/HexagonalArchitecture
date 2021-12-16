@@ -5,13 +5,19 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{11B508AA-8871-4E5E-82AF-52245439164A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Domain", "Contoso.Product.Domain\Contoso.Product.Domain.csproj", "{C775DE4E-A2FB-4918-8949-8F31BC1BFE03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Domain", "Contoso.Product.Domain\Contoso.Product.Domain.csproj", "{C775DE4E-A2FB-4918-8949-8F31BC1BFE03}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8BC584AF-221B-4021-8D01-B0F2527DD28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Infrastructure.Ports", "Contoso.Product.Infrastructure.Ports\Contoso.Product.Infrastructure.Ports.csproj", "{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastructure.Ports", "Contoso.Product.Infrastructure.Ports\Contoso.Product.Infrastructure.Ports.csproj", "{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Infrastructure", "Contoso.Product.Infrastructure\Contoso.Product.Infrastructure.csproj", "{B9679BB6-D973-4797-B64C-B3C3CD79DF64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastructure", "Contoso.Product.Infrastructure\Contoso.Product.Infrastructure.csproj", "{B9679BB6-D973-4797-B64C-B3C3CD79DF64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Application.Ports", "Contoso.Product.Application.Ports\Contoso.Product.Application.Ports.csproj", "{359A9D8E-255D-487F-B954-BC8823442160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Application", "Contoso.Product.Application\Contoso.Product.Application.csproj", "{53B137E3-98BA-4E46-900E-D7FD259522DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359A9D8E-255D-487F-B954-BC8823442160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359A9D8E-255D-487F-B954-BC8823442160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359A9D8E-255D-487F-B954-BC8823442160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359A9D8E-255D-487F-B954-BC8823442160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +53,8 @@ Global
 		{C775DE4E-A2FB-4918-8949-8F31BC1BFE03} = {11B508AA-8871-4E5E-82AF-52245439164A}
 		{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
+		{359A9D8E-255D-487F-B954-BC8823442160} = {BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}
+		{53B137E3-98BA-4E46-900E-D7FD259522DE} = {BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F5134DD-B8F1-40FC-BE78-4E1109F9D13B}

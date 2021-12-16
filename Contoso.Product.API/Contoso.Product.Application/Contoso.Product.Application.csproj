@@ -4,17 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<RootNamespace>Contoso.Product.Infrastructure</RootNamespace>
+	<RootNamespace>Contoso.Product.Application</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Contoso.Product.Application.Ports\Contoso.Product.Application.Ports.csproj" />
     <ProjectReference Include="..\Contoso.Product.Infrastructure.Ports\Contoso.Product.Infrastructure.Ports.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Azure.Data.Tables" Version="12.3.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
-    <PackageReference Include="MongoDB.Driver" Version="2.14.1" />
   </ItemGroup>
 
 </Project>
