@@ -1,6 +1,6 @@
 ﻿namespace Contoso.Product.Application.IntegrationEvents
 {
-    public class BuyerCardExpired
+    public class BuyerCardExpired : IntegrationEvent
     {
         public Guid BuyerId { get; set; }
 
