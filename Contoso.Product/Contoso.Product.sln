@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{11B508AA-8871-4E5E-82AF-52245439164A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Core", "3-Core", "{11B508AA-8871-4E5E-82AF-52245439164A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Domain", "Contoso.Product.Domain\Contoso.Product.Domain.csproj", "{C775DE4E-A2FB-4918-8949-8F31BC1BFE03}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8BC584AF-221B-4021-8D01-B0F2527DD28E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{8BC584AF-221B-4021-8D01-B0F2527DD28E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastructure.Ports", "Contoso.Product.Infrastructure.Ports\Contoso.Product.Infrastructure.Ports.csproj", "{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastructure", "Contoso.Product.Infrastructure\Contoso.Product.Infrastructure.csproj", "{B9679BB6-D973-4797-B64C-B3C3CD79DF64}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Application.Ports", "Contoso.Product.Application.Ports\Contoso.Product.Application.Ports.csproj", "{359A9D8E-255D-487F-B954-BC8823442160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Application.Ports", "Contoso.Product.Application.Ports\Contoso.Product.Application.Ports.csproj", "{359A9D8E-255D-487F-B954-BC8823442160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Application", "Contoso.Product.Application\Contoso.Product.Application.csproj", "{53B137E3-98BA-4E46-900E-D7FD259522DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Application", "Contoso.Product.Application\Contoso.Product.Application.csproj", "{53B137E3-98BA-4E46-900E-D7FD259522DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UserInterfaces", "1-UserInterfaces", "{4E11898D-3642-4D41-8D34-C9195352154C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-UseCases", "2-UseCases", "{3E2302B0-D5A4-491A-B979-945C50A041B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,8 +55,8 @@ Global
 		{C775DE4E-A2FB-4918-8949-8F31BC1BFE03} = {11B508AA-8871-4E5E-82AF-52245439164A}
 		{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
-		{359A9D8E-255D-487F-B954-BC8823442160} = {BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}
-		{53B137E3-98BA-4E46-900E-D7FD259522DE} = {BDAC49F9-FD07-4BED-9D67-A53A2CE241F7}
+		{359A9D8E-255D-487F-B954-BC8823442160} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
+		{53B137E3-98BA-4E46-900E-D7FD259522DE} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F5134DD-B8F1-40FC-BE78-4E1109F9D13B}
