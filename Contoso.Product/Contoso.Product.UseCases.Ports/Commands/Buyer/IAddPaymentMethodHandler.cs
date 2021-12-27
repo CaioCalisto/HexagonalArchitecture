@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.Application.Commands.Buyer
+﻿namespace Contoso.Product.UseCases.Commands.Buyer
 {
     public interface IAddPaymentMethodHandler
     {

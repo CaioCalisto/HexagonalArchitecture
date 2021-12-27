@@ -1,6 +1,6 @@
 ﻿using Contoso.Product.Infrastructure.Persistence;
 
-namespace Contoso.Product.Application.Queries
+namespace Contoso.Product.UseCases.Queries
 {
     public class BuyerQueries : IBuyerQueries
     {

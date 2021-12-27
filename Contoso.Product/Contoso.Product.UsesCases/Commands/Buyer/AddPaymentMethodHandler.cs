@@ -1,7 +1,7 @@
 ﻿using Contoso.Product.Infrastructure.Messaging;
 using Contoso.Product.Infrastructure.Persistence;
 
-namespace Contoso.Product.Application.Commands.Buyer
+namespace Contoso.Product.UseCases.Commands.Buyer
 {
     public class AddPaymentMethodHandler : IAddPaymentMethodHandler
     {

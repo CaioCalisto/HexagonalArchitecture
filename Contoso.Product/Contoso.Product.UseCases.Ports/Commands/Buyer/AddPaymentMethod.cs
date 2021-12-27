@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.Application.Commands
+﻿namespace Contoso.Product.UseCases.Commands
 {
     public class AddPaymentMethod
     {

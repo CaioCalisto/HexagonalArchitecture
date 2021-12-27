@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.Application.IntegrationEvents
+﻿namespace Contoso.Product.UseCases.IntegrationEvents
 {
     public class BuyerCardExpired : IntegrationEvent
     {

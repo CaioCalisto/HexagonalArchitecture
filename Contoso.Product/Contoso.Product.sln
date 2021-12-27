@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Infrastructure", "Contoso.Product.Infrastructure\Contoso.Product.Infrastructure.csproj", "{B9679BB6-D973-4797-B64C-B3C3CD79DF64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Application.Ports", "Contoso.Product.Application.Ports\Contoso.Product.Application.Ports.csproj", "{359A9D8E-255D-487F-B954-BC8823442160}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.Application", "Contoso.Product.Application\Contoso.Product.Application.csproj", "{53B137E3-98BA-4E46-900E-D7FD259522DE}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-UserInterfaces", "1-UserInterfaces", "{4E11898D-3642-4D41-8D34-C9195352154C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-InterfaceAdapters", "1-InterfaceAdapters", "{4E11898D-3642-4D41-8D34-C9195352154C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-UseCases", "2-UseCases", "{3E2302B0-D5A4-491A-B979-945C50A041B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.UseCases", "Contoso.Product.UsesCases\Contoso.Product.UseCases.csproj", "{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.UseCases.Ports", "Contoso.Product.UseCases.Ports\Contoso.Product.UseCases.Ports.csproj", "{6BBFE5CC-D906-4AAC-88EE-474B8075F61D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,14 @@ Global
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{359A9D8E-255D-487F-B954-BC8823442160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{359A9D8E-255D-487F-B954-BC8823442160}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{359A9D8E-255D-487F-B954-BC8823442160}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{359A9D8E-255D-487F-B954-BC8823442160}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53B137E3-98BA-4E46-900E-D7FD259522DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBFE5CC-D906-4AAC-88EE-474B8075F61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBFE5CC-D906-4AAC-88EE-474B8075F61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBFE5CC-D906-4AAC-88EE-474B8075F61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBFE5CC-D906-4AAC-88EE-474B8075F61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,8 +55,8 @@ Global
 		{C775DE4E-A2FB-4918-8949-8F31BC1BFE03} = {11B508AA-8871-4E5E-82AF-52245439164A}
 		{4F73C6CC-28AF-438B-BB3C-3D0A34F0709D} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
-		{359A9D8E-255D-487F-B954-BC8823442160} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
-		{53B137E3-98BA-4E46-900E-D7FD259522DE} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
+		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
+		{6BBFE5CC-D906-4AAC-88EE-474B8075F61D} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F5134DD-B8F1-40FC-BE78-4E1109F9D13B}

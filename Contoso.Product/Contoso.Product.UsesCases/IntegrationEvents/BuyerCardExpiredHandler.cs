@@ -1,6 +1,6 @@
 ﻿using Contoso.Product.Infrastructure.Persistence;
 
-namespace Contoso.Product.Application.IntegrationEvents
+namespace Contoso.Product.UseCases.IntegrationEvents
 {
     public class BuyerCardExpiredHandler : IEventHandler<BuyerCardExpired>
     {
