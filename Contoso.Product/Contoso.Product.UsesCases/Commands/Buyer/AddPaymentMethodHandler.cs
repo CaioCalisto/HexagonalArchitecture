@@ -14,7 +14,7 @@ namespace Contoso.Product.UseCases.Commands.Buyer
             this.messageBroker = messageBroker;
         }
 
-        public Task AddPaymentMethod(AddPaymentMethod addPaymentMethod)
+        public ValueTask<Outputs.Buyer> AddPaymentMethod(Inputs.AddPaymentMethod addPaymentMethod)
         {
             throw new NotImplementedException();
         }

@@ -2,8 +2,8 @@
 {
     public interface IBuyerQueries
     {
-        ValueTask<Buyer> GetBuyer(Guid id);
+        ValueTask<Output.Buyer> GetBuyer(Guid id);
 
-        ValueTask<Buyer> GetBuyer(string buyerName);
+        ValueTask<Output.Buyer> GetBuyer(string buyerName);
     }
 }

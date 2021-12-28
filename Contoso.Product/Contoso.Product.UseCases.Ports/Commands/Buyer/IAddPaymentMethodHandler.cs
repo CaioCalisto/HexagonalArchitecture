@@ -1,7 +1,9 @@
-﻿namespace Contoso.Product.UseCases.Commands.Buyer
+﻿using Contoso.Product.UseCases.Commands.Buyer.Inputs;
+
+namespace Contoso.Product.UseCases.Commands.Buyer
 {
     public interface IAddPaymentMethodHandler
     {
-        Task AddPaymentMethod(AddPaymentMethod addPaymentMethod);
+        ValueTask<Outputs.Buyer> AddPaymentMethod(AddPaymentMethod addPaymentMethod);
     }
 }

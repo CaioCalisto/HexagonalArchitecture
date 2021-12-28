@@ -11,12 +11,12 @@ namespace Contoso.Product.UseCases.Queries
             this.buyerQuery = buyerQuery;
         }
 
-        public ValueTask<Buyer> GetBuyer(Guid id)
+        public ValueTask<Output.Buyer> GetBuyer(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public ValueTask<Buyer> GetBuyer(string buyerName)
+        public ValueTask<Output.Buyer> GetBuyer(string buyerName)
         {
             throw new NotImplementedException();
         }
