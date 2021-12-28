@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.UseCases.IntegrationEvents
+﻿namespace Contoso.Product.InterfaceAdapters.IntegrationEvents
 {
     public interface IEventHandler<T> where T : IntegrationEvent
     {

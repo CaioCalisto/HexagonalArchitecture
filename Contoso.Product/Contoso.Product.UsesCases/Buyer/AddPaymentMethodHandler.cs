@@ -1,7 +1,7 @@
 ﻿using Contoso.Product.Infrastructure.Messaging;
 using Contoso.Product.Infrastructure.Persistence;
-using Contoso.Product.UseCases.Buyer.Inputs;
-using Contoso.Product.UseCases.Buyer.Outputs;
+using Contoso.Product.InterfaceAdapters.Buyer.Inputs;
+using Contoso.Product.InterfaceAdapters.Buyer.Outputs;
 
 namespace Contoso.Product.UseCases.Buyer
 {
@@ -18,7 +18,7 @@ namespace Contoso.Product.UseCases.Buyer
             this.addPaymentOutput = addPaymentOutput;
         }
 
-        public ValueTask<Outputs.Buyer> AddPaymentMethod(Inputs.AddPaymentMethod addPaymentMethod)
+        public ValueTask<InterfaceAdapters.Buyer.Outputs.Buyer> AddPaymentMethod(InterfaceAdapters.Buyer.Inputs.AddPaymentMethod addPaymentMethod)
         {
             throw new NotImplementedException();
         }
