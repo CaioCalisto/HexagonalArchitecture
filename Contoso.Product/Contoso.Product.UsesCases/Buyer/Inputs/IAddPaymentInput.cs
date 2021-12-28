@@ -2,6 +2,6 @@
 {
     public interface IAddPaymentInput
     {
-        ValueTask<Outputs.Buyer> AddPaymentMethod(AddPaymentMethod addPaymentMethod);
+        void AddPaymentMethod(AddPaymentMethod addPaymentMethod);
     }
 }
