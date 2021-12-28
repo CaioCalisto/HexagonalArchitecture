@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Contoso.Product.InterfaceAdapters\Contoso.Product.InterfaceAdapters.csproj" />
     <ProjectReference Include="..\Contoso.Product.Infrastructure.Ports\Contoso.Product.Infrastructure.Ports.csproj" />
   </ItemGroup>
 

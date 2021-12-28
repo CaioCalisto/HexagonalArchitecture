@@ -1,5 +1,4 @@
 ﻿using Contoso.Product.Infrastructure.Persistence;
-using Contoso.Product.InterfaceAdapters.IntegrationEvents;
 
 namespace Contoso.Product.UseCases.IntegrationEvents
 {

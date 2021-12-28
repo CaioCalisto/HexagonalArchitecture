@@ -1,6 +1,4 @@
-﻿using Contoso.Product.InterfaceAdapters.IntegrationEvents;
-
-namespace Contoso.Product.UseCases.IntegrationEvents
+﻿namespace Contoso.Product.UseCases.IntegrationEvents
 {
     public class BuyerCardExpired : IntegrationEvent
     {

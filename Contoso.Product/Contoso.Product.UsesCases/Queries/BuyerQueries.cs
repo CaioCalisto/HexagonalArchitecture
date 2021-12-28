@@ -1,5 +1,4 @@
 ﻿using Contoso.Product.Infrastructure.Persistence;
-using Contoso.Product.InterfaceAdapters.Queries;
 
 namespace Contoso.Product.UseCases.Queries
 {
@@ -12,12 +11,12 @@ namespace Contoso.Product.UseCases.Queries
             this.buyerQuery = buyerQuery;
         }
 
-        public ValueTask<InterfaceAdapters.Queries.Output.Buyer> GetBuyer(Guid id)
+        public ValueTask<Output.Buyer> GetBuyer(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public ValueTask<InterfaceAdapters.Queries.Output.Buyer> GetBuyer(string buyerName)
+        public ValueTask<Output.Buyer> GetBuyer(string buyerName)
         {
             throw new NotImplementedException();
         }

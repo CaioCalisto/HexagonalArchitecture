@@ -7,4 +7,8 @@
 		<RootNamespace>Contoso.Product.InterfaceAdapters</RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Contoso.Product.UsesCases\Contoso.Product.UseCases.csproj" />
+	</ItemGroup>
+
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.InterfaceAdapters.Queries
+﻿namespace Contoso.Product.UseCases.Queries
 {
     public interface IBuyerQueries
     {

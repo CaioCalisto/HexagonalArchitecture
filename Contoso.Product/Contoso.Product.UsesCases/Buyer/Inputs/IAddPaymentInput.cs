@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.InterfaceAdapters.Buyer.Inputs
+﻿namespace Contoso.Product.UseCases.Buyer.Inputs
 {
     public interface IAddPaymentInput
     {

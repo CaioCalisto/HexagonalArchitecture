@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.InterfaceAdapters.Queries.Output
+﻿namespace Contoso.Product.UseCases.Queries.Output
 {
     public class Buyer
     {
