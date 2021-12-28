@@ -1,4 +1,4 @@
-﻿namespace Contoso.Product.UseCases.Commands.Buyer.Outputs
+﻿namespace Contoso.Product.UseCases.Buyer.Outputs
 {
     public class Buyer
     {
