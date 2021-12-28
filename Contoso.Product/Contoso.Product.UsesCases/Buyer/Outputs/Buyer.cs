@@ -1,6 +1,6 @@
 ﻿namespace Contoso.Product.UseCases.Buyer.Outputs
 {
-    public class Buyer
+    public class Buyer : EventArgs
     {
         public Buyer(
             int buyerGuid,

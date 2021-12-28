@@ -9,13 +9,12 @@ namespace Contoso.Product.UseCases.Buyer
     {
         private readonly IBuyerRepository buyerRepository;
         private readonly IMessageBroker messageBroker;
-        private readonly IAddPaymentOutput addPaymentOutput;
+        private AbstractionAddPaymentOutput addPaymentOutput;
 
-        public AddPaymentMethodUseCase(IBuyerRepository buyerRepository, IMessageBroker messageBroker, IAddPaymentOutput addPaymentOutput)
+        public AddPaymentMethodUseCase(IBuyerRepository buyerRepository, IMessageBroker messageBroker)
         {
             this.buyerRepository = buyerRepository;
             this.messageBroker = messageBroker;
-            this.addPaymentOutput = addPaymentOutput;
         }
 
         public void AddPaymentMethod(AddPaymentMethod addPaymentMethod)
@@ -23,6 +22,11 @@ namespace Contoso.Product.UseCases.Buyer
             // call Domain
             // call Database
             this.addPaymentOutput.ReturnDataToViewModel(new Outputs.Buyer(0, string.Empty, 0));
+        }
+
+        public void SetOutput(AbstractionAddPaymentOutput output)
+        {
+            this.addPaymentOutput = output;
         }
     }
 }

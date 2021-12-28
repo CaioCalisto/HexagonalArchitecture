@@ -13,6 +13,11 @@ namespace Contoso.Product.InterfaceAdapters.Controllers
             this.addPaymentMethodUseCase = addPaymentMethodUseCase;
         }
 
+        public void SetOutput(AbstractionAddPaymentOutput output)
+        {
+            this.addPaymentMethodUseCase.SetOutput(output);
+        }
+
         public void AddPaymentMethod(AddPaymentMethod addPaymentMethod)
         {
             addPaymentMethodUseCase.AddPaymentMethod(addPaymentMethod);

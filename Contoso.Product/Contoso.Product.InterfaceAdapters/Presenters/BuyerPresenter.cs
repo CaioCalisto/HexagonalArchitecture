@@ -2,16 +2,11 @@
 
 namespace Contoso.Product.InterfaceAdapters.Presenters
 {
-    public delegate void Notification(Buyer data);
-
-    public class BuyerPresenter<T> : IAddPaymentOutput
+    public class BuyerPresenter : AbstractionAddPaymentOutput
     {
-        public event Notification OnNotified;
-
         public Task ReturnDataToViewModel(Buyer buyer)
         {
-            if (OnNotified != null)
-                OnNotified.Invoke(buyer);
+            this.ReturnDataToViewModel(buyer);
 
             return Task.CompletedTask;
         }

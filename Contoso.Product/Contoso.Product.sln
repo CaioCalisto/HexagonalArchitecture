@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.UseCases", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contoso.Product.InterfaceAdapters", "Contoso.Product.InterfaceAdapters\Contoso.Product.InterfaceAdapters.csproj", "{FDDC5485-F89C-4AC7-AA23-68A8A33734D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-UI", "0-UI", "{5CE49AF0-D69B-4C57-932B-7FC1D9A3B12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Product.Mvc", "Contoso.Product.Mvc\Contoso.Product.Mvc.csproj", "{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{FDDC5485-F89C-4AC7-AA23-68A8A33734D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDDC5485-F89C-4AC7-AA23-68A8A33734D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDDC5485-F89C-4AC7-AA23-68A8A33734D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{B9679BB6-D973-4797-B64C-B3C3CD79DF64} = {8BC584AF-221B-4021-8D01-B0F2527DD28E}
 		{28249FBA-2ED3-4072-9C3E-7D1655A1DC6A} = {3E2302B0-D5A4-491A-B979-945C50A041B7}
 		{FDDC5485-F89C-4AC7-AA23-68A8A33734D8} = {4E11898D-3642-4D41-8D34-C9195352154C}
+		{6F8CFDAE-C4F8-4B9A-957E-02FF0AEB4EC0} = {5CE49AF0-D69B-4C57-932B-7FC1D9A3B12E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F5134DD-B8F1-40FC-BE78-4E1109F9D13B}
