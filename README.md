@@ -1,4 +1,6 @@
-# HexagonalArchitecture
+# HexagonalArchitecture or Clean-Architecture
 
-This is an example.
+This is an unfinished example.
 Trying to implement Hexagonal Architecture in C# with DDD
+
+
